@@ -1,4 +1,4 @@
-package Praktikum.quiz.no1;
+package Praktikum.Sesi12.quiz.no1;
 
 class Dekan extends Dosen {
     private String fakultas;

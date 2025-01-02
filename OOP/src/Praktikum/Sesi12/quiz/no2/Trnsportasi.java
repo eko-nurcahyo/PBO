@@ -1,4 +1,5 @@
-package Praktikum.quiz.no2;
+package Praktikum.Sesi12.quiz.no2;
+
 
 interface Transportasi {
     public void tampil();  // Display method

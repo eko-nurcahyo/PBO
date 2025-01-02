@@ -1,4 +1,4 @@
-package Praktikum.quiz.no3;
+package Praktikum.Sesi12.quiz.no3;
 
 public class Diagram {
     

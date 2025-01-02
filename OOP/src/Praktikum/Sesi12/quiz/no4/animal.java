@@ -1,4 +1,4 @@
-package Praktikum.quiz.no4;
+package Praktikum.Sesi12.quiz.no4;
 
 // Interface untuk kemampuan tambahan
 interface BisaTerbang {

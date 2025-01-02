@@ -1,4 +1,4 @@
-package Praktikum.quiz.no1;
+package Praktikum.Sesi12.quiz.no1;
 
 public class Main {
     public static void main(String[] args) {

@@ -2,35 +2,48 @@ package Praktikum.Sesi8;
 
 public class Main {
     public static void main(String[] args) {
-        // Membuat objek persegi
-        Persegi persegi = new Persegi();
-        persegi.sisi = 2;
+        // Membuat objek
+        Pegawai Manager = new Manager();
+        Pegawai Kasir = new Kasir();
+        Pegawai Koki = new Koki();
+        Pegawai Pelayan = new Pelayan();
+        Pegawai Satpam = new Satpam();
 
-        // Membuat objek lingkaran
-        Lingkaran lingkaran = new Lingkaran();
-        lingkaran.r = 22;
+        // Menginisialisasi variabel menggunakan objek
+        Manager.nama = "Wirya";
+        Manager.id_pegawai = 1;
+        Manager.gaji = "7 Juta";
 
-        // Membuat objek persegi panjang
-        PersegiPanjang persegiPanjang = new PersegiPanjang();
-        persegiPanjang.panjang = 8;
-        persegiPanjang.lebar = 4;
+        Kasir.nama = "Aldi";
+        Kasir.id_pegawai = 2;
+        Kasir.gaji = "2 Juta";
 
-        // Membuat objek segitiga
-        Segitiga segitiga = new Segitiga();
-        segitiga.alas = 12;
-        segitiga.tinggi = 8;
+        Koki.nama = "Reza";
+        Koki.id_pegawai = 3;
+        Koki.gaji = "2 Juta";
 
-        // Menampilkan hasil
-        System.out.println("Luas Persegi: " + persegi.luas());
-        System.out.println("Keliling Persegi: " + persegi.keliling());
+        Pelayan.nama = "Dean";
+        Pelayan.id_pegawai = 4;
+        Pelayan.gaji = "2 Juta";
 
-        System.out.println("Luas Lingkaran: " + lingkaran.luas());
-        System.out.println("Keliling Lingkaran: " + lingkaran.keliling());
+        Satpam.nama = "Aldi";
+        Satpam.id_pegawai = 5;
+        Satpam.gaji = "1 Juta";
 
-        System.out.println("Luas Persegi Panjang: " + persegiPanjang.luas());
-        System.out.println("Keliling Persegi Panjang: " + persegiPanjang.keliling());
+        // Menampilkan data dan tugas
+        Manager.menampilkan();
+        ((Manager) Manager).tugas();
 
-        System.out.println("Luas Segitiga: " + segitiga.luas());
-        segitiga.keliling();
+        Kasir.menampilkan();
+        ((Kasir) Kasir).tugas();
+
+        Koki.menampilkan();
+        ((Koki) Koki).tugas();
+
+        Pelayan.menampilkan();
+        ((Pelayan) Pelayan).tugas();
+
+        Satpam.menampilkan();
+        ((Satpam) Satpam).tugas();
     }
 }

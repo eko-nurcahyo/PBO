@@ -1,5 +1,3 @@
-package Praktikum.Sesi3;
-
 import java.util.Scanner;
 
 public class Kalkulator {
